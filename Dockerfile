@@ -37,8 +37,8 @@ ENV PHP_BASE=${PHP_BASE:-"8.2"} \
     CONTAINER_NAME=nginx-php-fpm-app \
     CONTAINER_ENABLE_MESSAGING=TRUE \
     NGINX_ENABLE_CREATE_SAMPLE_HTML=FALSE \
-    IMAGE_NAME="tiredofit/nginx-php-fpm" \
-    IMAGE_REPO_URL="https://github.com/tiredofit/docker-nginx-php-fpm/"
+    IMAGE_NAME="end2end/nginx-php-fpm" \
+    IMAGE_REPO_URL="https://github.com/RokoMetek/docker-nginx-php-fpm/"
 
 ### Dependency Installation
 RUN case "${PHP_BASE}" in \
